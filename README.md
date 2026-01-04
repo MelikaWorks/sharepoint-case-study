@@ -21,4 +21,14 @@ instead of providing deployable source code.
 
 > ⚠️ Note: No executable workflows or templates are included in this repository due to
 > NDA and organizational security considerations.
+>
+---
+## Scope of This Case Study
+
+This case study covers:
+- Organizational portal design (multi-factory)
+- Nintex-based workflow automation
+- Secretariat (Mailroom) processes
+- Survey-based user feedback
+- Project Server (PWA) integration
 
