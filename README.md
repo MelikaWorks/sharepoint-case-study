@@ -133,8 +133,7 @@ are documented separately.
 **Melika Mehranpour**  
 Enterprise Software & SharePoint Solutions
 
-🔗 GitHub: https://github.com/MelikaWorks  
-🔗 LinkedIn: https://www.linkedin.com/in/melika-mehranpour-41b627161/
+🔗 [LinkedIn](https://www.linkedin.com/in/melika-mehranpour-41b627161/) | [GitHub](https://github.com/MelikaWorks) | [Portfolio](https://github.com/MelikaWorks/Portfolio)
 
 ---
 
