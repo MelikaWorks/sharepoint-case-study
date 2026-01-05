@@ -1,141 +1,142 @@
-# SharePoint Sites & Portals – Enterprise Implementation
+# SharePoint Sites & Portals – Enterprise Architecture
 
-This repository showcases an enterprise-level implementation of **SharePoint Sites and Portals** used as a centralized organizational platform for document management, reporting, workflows, and departmental collaboration.
+This repository documents a real-world **enterprise SharePoint Sites & Portals implementation**
+used as a centralized platform for organizational portals, document management, reporting,
+and workflow enablement.
 
-> ⚠️ **Note**: This repository contains **no source code** due to NDA and internal security policies.  
-All technical details are demonstrated through structure descriptions and screenshots.
-
----
-
-## 🎯 Project Overview
-
-The solution was designed and implemented to provide:
-
-- Centralized access to organizational portals
-- Structured document archiving (DMS)
-- Custom SharePoint Lists for operational data
-- Reporting and dashboards
-- Secure role-based access control
-- Scalable multi-site architecture
-
-This implementation was actively used across multiple departments and factories.
+> ⚠️ **Important**  
+> This repository contains **no source code**.  
+> Due to NDA and internal security policies, the implementation is documented through
+> architecture descriptions, real screenshots, and artifacts only.
 
 ---
 
-## 🧩 Key Components
+## 🎯 Scope of This Repository
 
-### 1. SharePoint Portal Home
-- Central entry point for all organizational systems
-- Visual navigation to departmental portals
-- User-friendly tile-based access
+This repository focuses specifically on:
 
-📸 *Screenshot: Portal Home Page*
+- SharePoint **Sites & Subsites architecture**
+- Organizational portals and dashboards
+- Document management and archiving (DMS)
+- Custom SharePoint Lists
+- Reporting libraries
+- Permission and access control design
+- Workflow documentation (process level)
 
----
-
-### 2. Sites & Subsites Architecture
-- Hierarchical structure of sites and subsites
-- Each site dedicated to a specific domain (HR, Finance, Projects, etc.)
-- Easy scalability for new departments or factories
-
-📸 *Screenshot: Sites Overview*
+> Project Server (PWA) and scheduling features are documented in a **separate repository**.
 
 ---
 
-### 3. Custom Lists & Operational Data
-- Custom SharePoint Lists (e.g. Stations, Tasks, Reports)
-- Structured metadata (Codes, Capacity, Status, Dates)
-- Excel export and inline editing enabled
+## 🧱 Repository Structure
+/
+├── portal-architecture/
+│   ├── 01-HomePage.jpg
+│   ├── 02-custom-list-stations.jpg
+│   ├── 03-site-navigation-and-structure.jpg
+│   ├── 04-sharepoint-document-archiving.jpg
+│   ├── 05-reports-library.jpg
+│   ├── 06-sites-overview-dashboard.jpg
+│   ├── 07-permission-management-check.jpg
+│   ├── 08-organization-sites-dashboard.jpg
+│   ├── 09-subsites-registry-and-description.jpg
+│   └── README.md
+│
+├── survey-feedback/
+│   ├── README.md
+│   ├── survey1.jpg
+│   ├── survey2.jpg
+│   └── survey3.jpg
+│
+├── workflow/
+│   ├── artifacts/
+│   │   ├── FL-MWF-010224-rev00.pdf
+│   │   ├── FV-010428-rev00.xlsx
+│   │   ├── MNGReport-01-04-25-01.xlsx
+│   │   ├── process-inputs.docx
+│   │   └── README.md
+│   │
+│   ├── screenshots/
+│   │   ├── 1.jpg
+│   │   ├── ...
+│   │   ├── 8.jpg
+│   │   └── README.md
+│   │
+│   ├── overview.md
+│   ├── process-flow-en.md
+│   ├── process-flow-fa.md
+│   ├── roles-and-approvals.md
+│   └── README.md
+│
+├── SECURITY-NOTES.md
+├── LICENSE
+└── README.md
 
-📸 *Screenshot: Custom List – Stations*
+## 🧩 Key Areas
+
+### Portal Architecture
+
+The `portal-architecture/` directory documents:
+
+- Central portal homepage
+- Organization-level site dashboards
+- Subsite registry and structure
+- Navigation and information architecture
+- Permission inspection and validation
 
 ---
 
-### 4. Document Management & Archiving (DMS)
-- Centralized document libraries
-- Metadata-driven classification
-- Secure access and version control
-- Archive-ready structure for long-term storage
+### Survey & Feedback
 
-📸 *Screenshot: Document Archive Library*
+The `survey-feedback/` directory contains:
 
----
-
-### 5. Reporting & Dashboards
-- Dedicated report libraries
-- Time-based and project-based reports
-- Designed to support management-level decision making
-
-📸 *Screenshot: Reports Library*
+- SharePoint Survey implementation
+- Anonymous feedback collection
+- Multi-site usage across factories
 
 ---
 
-### 6. Navigation & User Experience
-- Custom navigation menus
-- Clear separation between content, documents, and lists
-- Minimal training required for end users
+### Workflow Documentation
 
-📸 *Screenshot: Navigation Structure*
+The `workflow/` directory documents:
+
+- Business process flows (FA / EN)
+- Approval roles and responsibilities
+- Real operational artifacts
+- Workflow-related screenshots
 
 ---
 
 ## 🔐 Security & Access Control
 
-- Role-based permissions using SharePoint Groups
-- Separation of Owners, Members, and Visitors
-- Fine-grained access at site, library, and list level
-- Permission auditing via “Check Permissions”
+Permission design, role separation, and access auditing  
+are documented separately.
 
 📄 See: `SECURITY-NOTES.md`
 
 ---
 
-## 🗂 Repository Structure
-```bash
-/
-├── README.md
-├── SECURITY-NOTES.md
-├── screenshots/
-│   ├── 01-sharepoint-portal-home.jpg
-│   ├── 02-custom-list-stations.jpg
-│   ├── 03-site-navigation-and-structure.jpg
-│   ├── 03-sub-menu.jpg
-│   ├── 04-sharepoint-document-archiving.jpg
-│   ├── 05-reports-library.jpg
-│   ├── 06-organization-sites-dashboard.jpg
-│   └── 07-permission-management-check.jpg
-
-
-```
-> All screenshots are stored directly under the main `screenshots` folder for simplicity.
-
----
-
-## 🧠 Skills & Technologies Demonstrated
+## 🧠 Skills Demonstrated
 
 - SharePoint Server (On-Prem)
-- SharePoint Sites & Subsites
+- Enterprise portal architecture
+- Information architecture & navigation design
+- Document Management Systems (DMS)
 - Custom Lists & Libraries
-- Enterprise Document Management (DMS)
-- Permission & Security Design
-- Reporting Structures
-- Information Architecture
+- Permission & role-based access design
+- Workflow analysis and documentation
 
 ---
 
-## 📌 Notes for Reviewers
+## 👩‍💻 Author
 
-This project represents a **real production environment** used by an enterprise organization.  
-While code is not included, the architectural decisions, security design, and portal structure reflect hands-on, production-level experience.
+**Melika Mehranpour**  
+Enterprise Software & SharePoint Solutions
+
+🔗 GitHub: https://github.com/MelikaWorks  
+🔗 LinkedIn: https://www.linkedin.com/in/melika-mehranpour-41b627161/
 
 ---
 
-👩‍💻 **Author**  
-Melika Mehranpour  
-Enterprise Software & SharePoint Solutions Specialist
+## 📄 License
 
-🔗 [LinkedIn](https://www.linkedin.com/in/melika-mehranpour-41b627161/) | [GitHub](https://github.com/MelikaWorks)
-
-## License
-See the [LICENSE](LICENSE) file for license information.
-
+See the `LICENSE` file for license information.
