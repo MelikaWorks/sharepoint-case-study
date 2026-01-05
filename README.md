@@ -91,4 +91,51 @@ This implementation was actively used across multiple departments and factories.
 ---
 
 ## 🗂 Repository Structure
+```bash
+/
+├── README.md
+├── SECURITY-NOTES.md
+├── screenshots/
+│   ├── 01-sharepoint-portal-home.jpg
+│   ├── 02-custom-list-stations.jpg
+│   ├── 03-site-navigation-and-structure.jpg
+│   ├── 03-sub-menu.jpg
+│   ├── 04-sharepoint-document-archiving.jpg
+│   ├── 05-reports-library.jpg
+│   ├── 06-organization-sites-dashboard.jpg
+│   └── 07-permission-management-check.jpg
+
+
+```
+> All screenshots are stored directly under the main `screenshots` folder for simplicity.
+
+---
+
+## 🧠 Skills & Technologies Demonstrated
+
+- SharePoint Server (On-Prem)
+- SharePoint Sites & Subsites
+- Custom Lists & Libraries
+- Enterprise Document Management (DMS)
+- Permission & Security Design
+- Reporting Structures
+- Information Architecture
+
+---
+
+## 📌 Notes for Reviewers
+
+This project represents a **real production environment** used by an enterprise organization.  
+While code is not included, the architectural decisions, security design, and portal structure reflect hands-on, production-level experience.
+
+---
+
+👩‍💻 **Author**  
+Melika Mehranpour  
+Enterprise Software & SharePoint Solutions Specialist
+
+🔗 [LinkedIn](https://www.linkedin.com/in/melika-mehranpour-41b627161/) | [GitHub](https://github.com/MelikaWorks)
+
+## License
+See the [LICENSE](LICENSE) file for license information.
 
